@@ -1,0 +1,51 @@
+{
+    "name": "angulario-webpack-demo",
+    "version": "1.0.0",
+    "description": "https://webpack.js.org/",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.dev.js --color",
+        "devserver": "webpack-dev-server --inline --progress --port 8080 --config webpack.config.dev.js",
+        "dev": "export NODE_ENV=development && npm run build && node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@angular/animations": "^6.0.0",
+        "@angular/common": "^6.0.0",
+        "@angular/compiler": "^6.0.0",
+        "@angular/compiler-cli": "^6.0.0",
+        "@angular/core": "^6.0.0",
+        "@angular/forms": "^6.0.0",
+        "@angular/http": "^6.0.0",
+        "@angular/platform-browser": "^6.0.0",
+        "@angular/platform-browser-dynamic": "^6.0.0",
+        "@angular/platform-server": "^6.0.0",
+        "@angular/router": "^6.0.0",
+        "@angular/upgrade": "^6.0.0",
+        "core-js": "^2.4.1",
+        "rxjs": "^6.0.0",
+        "zone.js": "^0.8.5"
+    },
+    "devDependencies": {
+        "@ngtools/webpack": "^1.10.2",
+        "@types/core-js": "0.9.36",
+        "@types/node": "^6.0.45",
+        "angular-router-loader": "^0.6.0",
+        "angular2-template-loader": "^0.6.2",
+        "awesome-typescript-loader": "^5.0.0",
+        "del-cli": "^0.2.1",
+        "html-loader": "^0.4.5",
+        "html-webpack-plugin": "^3.2.0",
+        "lite-server": "^2.3.0",
+        "raw-loader": "^0.5.1",
+        "typescript": "2.7.2",
+        "webpack": "^4.7.0",
+        "webpack-cli": "^3.1.1",
+        "webpack-dev-server": "^3.1.4",
+        "webpack-merge": "^4.1.2",
+        "webpack-config-utils": "2.0.0",
+        "webpack-dev-middleware": "^3.6.1",
+        "webpack-validator": "2.2.7"
+    }
+}
